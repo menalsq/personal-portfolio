@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #9a8c98;
+    border-bottom: 1px solid #ddd;
+    color: #20202F;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #20202F;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #20202F;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #555;
+}
+
+.left {
+    margin-right: 50px;
+    background-color: #9A8C98;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.main-image {
+    width: 40%;
+    background-color: #9A8C98;
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons,
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.main-btn {
+    background-color: #4A4E69;
+    color: white;
+    text-decoration:solid;
+}
+
+
+.alt-btn {
+    background-color: #4A4E69;
+    color: white;
+    text-decoration: solid;
+}
+
+.button img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+.left h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.left h5 {
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    width: 80%;
+}
